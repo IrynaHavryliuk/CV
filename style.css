@@ -1,33 +1,120 @@
-body { 
-    font-family: 'Montserrat', sans-serif; 
-    background-color: #F5F7FA; 
-}     
- 
-.Main-container { 
-    display: flex; 
-    flex-direction: row-reverse; 
-    width: 1200px; 
-    background: #fff; 
-    margin: 40px auto; 
-    font-family: 'Montserrat', sans-serif; 
-} 
- 
- 
-.about-me-section { 
- 
-} 
-.My-project-section { 
- 
-} 
-.My-work-section { 
- 
-} 
-.My-Education-section { 
- 
-} 
- 
-.Sidebar-section { 
-    background: rgb(49, 45, 45); 
-    color: honeydew; 
- 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+img,
+div {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-whyte-color: #ffffff;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--primary-whyte-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto";
+  margin: 0px;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* .header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+} */
+/* .header-icon {
+  display: inline-block;
+  justify-content: flex-end;
+} */
+*/
+/* .conteiner {
+   display: flex;
+   align-items: center;
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px; 
+   margin: 0 auto;
+}  */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.Main-container {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: #fff;
+  /* margin: 40px auto; */
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin-top: 102px;
+  margin-left: 88px;
+}
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+
+  color: #000000;
+  margin-top: 19px;
+  margin-bottom: 24px;
+}
+.about-me-section {
+}
+.My-project-section {
+}
+.My-work-section {
+}
+.My-Education-section {
+}
+
+.Sidebar-section {
+  width: 370px;
+  height: 1319px;
+  background: #1e2939;
+  color: honeydew;
+}
+.photo {
+  /* position: absolute; */
+  /* width: 370px; */
+  height: 354px;
 }
