@@ -1,0 +1,33 @@
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #F5F7FA; 
+}     
+ 
+.Main-container { 
+    display: flex; 
+    flex-direction: row-reverse; 
+    width: 1200px; 
+    background: #fff; 
+    margin: 40px auto; 
+    font-family: 'Montserrat', sans-serif; 
+} 
+ 
+ 
+.about-me-section { 
+ 
+} 
+.My-project-section { 
+ 
+} 
+.My-work-section { 
+ 
+} 
+.My-Education-section { 
+ 
+} 
+ 
+.Sidebar-section { 
+    background: rgb(49, 45, 45); 
+    color: honeydew; 
+ 
+}
