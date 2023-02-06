@@ -38,8 +38,27 @@ body {
   margin: 0;
   list-style: none;
 }
-.link {
+a {
+  color: black;
   text-decoration: none;
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+a:hover {
+  background-size: 0 3px, 100% 3px;
 }
 /* .header {
   padding-top: 25px;
@@ -68,10 +87,17 @@ body {
   display: flex;
   /* align-items: center; */
   flex-direction: row-reverse;
-  width: 1200px;
   background: #fff;
-  /* margin: 40px auto; */
   font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 1200px;
+  height: 1319px;
+  left: 40px;
+  top: 40px;
+
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 .container {
   margin-top: 102px;
@@ -110,11 +136,31 @@ h1 {
 .Sidebar-section {
   width: 370px;
   height: 1319px;
-  background: #1e2939;
+  background: linear-gradient(
+    to bottom right,
+    hsl(150 100% 50%),
+    hsl(228, 100%, 60%)
+  );
+  border-radius: 1rem;
   color: honeydew;
+  padding-left: 40px;
 }
 .photo {
   /* position: absolute; */
   /* width: 370px; */
   height: 354px;
+  padding-top: 20px;
+}
+.contacts {
+  margin-top: 51px;
+}
+h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
