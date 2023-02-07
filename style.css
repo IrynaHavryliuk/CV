@@ -19,12 +19,6 @@ div {
   margin-bottom: 0;
   margin-right: 0;
 }
-:root {
-  --primary-text-color: rgba(0, 0, 0, 0.8);
-  --title-text-color: #000000;
-  --accent-color: #18a0fb;
-  --primary-whyte-color: #ffffff;
-}
 
 body {
   font-family: var(--main-font);
@@ -60,49 +54,24 @@ a {
 a:hover {
   background-size: 0 3px, 100% 3px;
 }
-/* .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
-} */
-/* .header-icon {
-  display: inline-block;
-  justify-content: flex-end;
-} */
-*/
-/* .conteiner {
-   display: flex;
-   align-items: center;
-   width: 1200px;
-   padding-left: 15px;
-   padding-right: 15px; 
-   margin: 0 auto;
-}  */
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f5f7fa;
-}
 
 .Main-container {
   display: flex;
-  /* align-items: center; */
   flex-direction: row-reverse;
-  background: #fff;
-  font-family: "Montserrat", sans-serif;
-  position: absolute;
-  width: 1200px;
-  height: 1319px;
-  left: 40px;
-  top: 40px;
-
-  background: #ffffff;
+  max-width: 100%;
+  background-image: url("./img/depositphotos_69972617-stock-illustration-vector-abstract-background-design.jpg");
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
+  background-repeat: round;
 }
 .container {
-  margin-top: 102px;
-  margin-left: 88px;
-  margin-right: 217px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 480px;
+  text-align: start;
+  justify-content: center;
 }
 h2 {
   font-family: "Montserrat";
@@ -115,8 +84,8 @@ h2 {
   color: #000000;
 }
 h1 {
-  font-family: "Montserrat";
-  font-style: normal;
+  font-family: "Dancing Script";
+  font-style: bold;
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
@@ -134,23 +103,14 @@ h1 {
 .My-Education-section {
 }
 
-.Sidebar-section {
-  width: 370px;
-  height: 1319px;
-  background: linear-gradient(
-    to bottom right,
-    hsl(150 100% 50%),
-    hsl(228, 100%, 60%)
-  );
-  border-radius: 1rem;
-  color: honeydew;
-  padding-left: 40px;
-}
+/* .Sidebar-section {
+  width: 600px;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+} */
 .photo {
-  /* position: absolute; */
-  /* width: 370px; */
   height: 354px;
-  padding-top: 20px;
 }
 .contacts {
   margin-top: 51px;
@@ -162,6 +122,19 @@ h3 {
   font-size: 22px;
   line-height: 27px;
   /* identical to box height */
-
-  color: #ffffff;
+  /* background-color: #18a0fb; */
+  color: black;
+}
+.about-me-section {
+  color: peachpuff;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.orange {
+  background-color: chocolate;
+  color: peachpuff;
 }
