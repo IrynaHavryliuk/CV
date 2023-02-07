@@ -1,11 +1,7 @@
 html {
   box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
 p,
 h1,
 h2,
@@ -21,9 +17,6 @@ div {
 }
 
 body {
-  font-family: var(--main-font);
-  background-color: var(--primary-whyte-color);
-  color: var(--primary-text-color);
   font-family: "Roboto";
   margin: 0px;
 }
@@ -74,13 +67,10 @@ a:hover {
   justify-content: center;
 }
 h2 {
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 17px;
-  /* identical to box height */
-
   color: #000000;
 }
 h1 {
@@ -89,13 +79,11 @@ h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-
   color: #000000;
   margin-top: 19px;
   margin-bottom: 24px;
 }
-.about-me-section {
-}
+
 .My-project-section {
 }
 .My-work-section {
@@ -103,12 +91,6 @@ h1 {
 .My-Education-section {
 }
 
-/* .Sidebar-section {
-  width: 600px;
-  align-items: center;
-  margin-left: 60px;
-  margin-right: 60px;
-} */
 .photo {
   height: 354px;
 }
@@ -121,8 +103,6 @@ h3 {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  /* identical to box height */
-  /* background-color: #18a0fb; */
   color: black;
 }
 .about-me-section {
@@ -145,4 +125,12 @@ h3 {
   border-radius: 2rem;
   width: 180px;
   margin-bottom: 30px;
+}
+.white:hover {
+  background-color: rgb(236, 191, 29);
+  color: white;
+  transition: 400ms;
+}
+.icon-home {
+  margin-right: 15px;
 }
