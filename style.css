@@ -127,14 +127,22 @@ h3 {
 }
 .about-me-section {
   color: peachpuff;
-  padding-top: 60px;
-  padding-left: 20px;
-  padding-right: 30px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
+  padding-bottom: 60px;
 }
 .orange {
-  background-color: chocolate;
+  background-color: rgb(244, 106, 7);
   color: peachpuff;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 60px;
+}
+.white {
+  background-color: white;
+  color: rgb(244, 106, 7);
+  border-radius: 2rem;
+  width: 180px;
+  margin-bottom: 30px;
 }
