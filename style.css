@@ -126,11 +126,22 @@ h3 {
   width: 180px;
   margin-bottom: 30px;
 }
-.white:hover {
+.white:hover,
+.contacts:hover {
   background-color: rgb(236, 191, 29);
   color: white;
   transition: 400ms;
 }
 .icon-home {
   margin-right: 15px;
+}
+.contacts {
+  background-color: rgb(244, 106, 7);
+  color: white;
+  border-radius: 2rem;
+  width: 180px;
+  margin-bottom: 30px;
+}
+li {
+  margin-bottom: 10px;
 }
